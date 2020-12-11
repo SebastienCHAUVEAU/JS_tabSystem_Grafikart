@@ -1,0 +1,55 @@
+.container{
+    width : 60%;
+    height : 200px;
+    margin : 0 auto;
+    padding : 20px;
+    background-color: #EEE;
+    border-radius: 5px;
+    
+
+  }
+  
+  /*Les onglets */
+  .tabs{
+    list-style-type : none;
+    margin : 0;
+    padding:0;
+  }
+  
+
+ 
+  .tabs li{
+    display : inline-block;
+    margin : 0;
+    padding:0;
+  }
+  
+  .tabs a{
+    background-color: #EEE;
+    text-decoration: none;
+    color : inherit;
+    padding : 10px 15px;
+    box-shadow:  0 1px 3px;
+    border-radius: 5px;
+
+  }
+
+  .tabs .active a, 
+  .tabs a:hover{
+    background-color: #775CFA;
+
+    }
+  
+  /*Les contenus */
+  
+  .tab-content{
+    display: none;
+    text-align:justify;
+  }
+  
+  .tab-content.active {
+    display: block;
+    margin-top : 20px;
+  }
+  
+  
